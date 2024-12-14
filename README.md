@@ -1,11 +1,13 @@
 # <h1 align="center"> Forge Template - Contract Testing </h1>
 
-**Template repository for for Foundry projects**
-
-![Github Actions](https://github.com/foundry-rs/forge-template/workflows/CI/badge.svg)
+### This project template is made using *Foundry* ethereum toolkit.
 
 ## Contracts & Tests Contracts
-This project contains contracts like Worker Coin which is extended from the ERC20 token standard contract to create a token contract. This project also contains other contracts with various tests which can be run locally.
+This project contains contracts like Worker Coin which is extended from the ERC20 token standard contract to create a token contract. This project also contains other contracts with various tests which can be run locally. 
+
+## Deployed Contract (testnet)
+
+![alt text](image.png)
 
 ## Getting Started
 
