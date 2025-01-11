@@ -19,7 +19,7 @@ contract TestAdmin is Test{
         assertEq(c.admin(), newAdmin);
     }
 
-    function testFailChangeAdmin()public { //ffails with error message
+    function testFailChangeAdmin()public { //fails with error message
         vm.prank(nonAdmin);
         vm.expectRevert("Only admin can change the admin");
         c.changeAdmin(newAdmin);
